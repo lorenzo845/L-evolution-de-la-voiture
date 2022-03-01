@@ -1,0 +1,141 @@
+h1
+{
+	color: white;
+	text-decoration: underline;
+}
+p{
+	;
+	color: white;
+	font-size:larger ;	
+}
+h2{
+	color: white;
+	text-decoration:  underline;
+}
+body
+{
+	background-color: gray;
+}
+.avant, .present, .futur
+{
+	list-style: none;
+	width: 60%;
+	margin-top: 2%;
+	user-select: none;
+	width: 1000px;
+	height: 667px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid white;
+	margin: 10px;
+	border-radius: 10px;
+	background-position: center;
+	position: absolute;
+	overflow: hidden;
+	width: 1000px;
+	height: 667px;
+	filter: blur(0px);
+}
+.avant:hover, .present:hover, .futur:hover
+{
+	filter: blur(0px);
+
+}
+.home
+{
+	right: 10%;
+	position: absolute;
+	text-decoration: none;
+	font-size: 26px;
+	border: 2px solid;
+	padding: 3px;
+	border-radius: 10px;
+	color: white;
+}
+.home:hover
+{
+	color: grey;
+	background-color: white;
+}
+#gif
+{
+	display: flex;
+	height: 150px;
+	justify-content: center;
+	user-select: none;
+}
+.present{
+	margin-top: 69%;
+}
+.futur{
+	margin-top: 137%;
+}
+.texte
+{
+	right: 10%;
+	position: absolute;
+	text-decoration: none;
+	font-size: 26px;
+	border: 2px solid;
+	padding: 3px;
+	border-radius: 10px;
+	color: white;
+	margin-top: 197%;
+	left: 820px;
+	right: 0px;
+	font-size: small;
+}
+.texte:hover
+{
+	color: black;
+	background-color: black;
+
+}
+.texte2
+{
+	right: 10%;
+	position: absolute;
+	text-decoration: none;
+	font-size: 26px;
+	border: 2px solid;
+	padding: 3px;
+	border-radius: 10px;
+	color: white;
+	margin-top: 61%;
+	left: 820px;
+	right: 0px;
+	font-size: small;
+}
+.texte2:hover
+{
+	color: black;
+	background-color: black;
+}
+.texte1
+{
+	right: 10%;
+	position: absolute;
+	text-decoration: none;
+	font-size: 26px;
+	border: 2px solid;
+	padding: 3px;
+	border-radius: 10px;
+	color: white;
+	margin-top: 129%;
+	left: 820px;
+	right: 0px;
+	font-size: small;
+}
+.texte1:hover
+{
+	color: black;
+	background-color: black;
+}
+.img
+{
+	user-select: none;
+	text-align: center;
+	margin: 20px;
+	position: absolute;
+	width: 1000px;
+}
